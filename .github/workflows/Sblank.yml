@@ -1,0 +1,16 @@
+samfirm-mobile/
+├─ server/
+│   ├─ index.js
+│   └─ package.json
+├─ android/
+│   ├─ build.gradle
+│   ├─ settings.gradle
+│   └─ app/
+│       ├─ build.gradle
+│       ├─ src/main/AndroidManifest.xml
+│       ├─ src/main/java/com/samfirm/mobile/MainActivity.kt
+│       ├─ src/main/java/com/samfirm/mobile/SearchActivity.kt
+│       └─ src/main/res/layout/
+│           ├─ activity_main.xml
+│           └─ activity_search.xml
+└─ .github/workflows/android-build.yml
